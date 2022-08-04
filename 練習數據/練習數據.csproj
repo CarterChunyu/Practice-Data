@@ -45,23 +45,35 @@
   <ItemGroup>
     <Compile Include="Array1.cs" />
     <Compile Include="Array1Queue.cs" />
+    <Compile Include="Array1Set.cs" />
     <Compile Include="Array1Stack.cs" />
     <Compile Include="Array2.cs" />
     <Compile Include="Array2Queue.cs" />
     <Compile Include="BST1.cs" />
     <Compile Include="HashSt1.cs" />
+    <Compile Include="IDictionary.cs" />
     <Compile Include="IQueue.cs" />
+    <Compile Include="ISet.cs" />
     <Compile Include="IStack.cs" />
     <Compile Include="LinkedList1.cs" />
+    <Compile Include="LinkedList1Set.cs" />
     <Compile Include="LinkedList1Stack.cs" />
     <Compile Include="LinkedList2.cs" />
     <Compile Include="LinkedList2Queue.cs" />
+    <Compile Include="LinkedList3.cs" />
+    <Compile Include="LinkedList3Dictionary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RBT1.cs" />
+    <Compile Include="TestHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="测试文件1\双城记.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
