@@ -51,6 +51,7 @@
     <Compile Include="Array2Queue.cs" />
     <Compile Include="BST1.cs" />
     <Compile Include="BST1Set.cs" />
+    <Compile Include="BST2.cs" />
     <Compile Include="HashSt1.cs" />
     <Compile Include="HashSt1Set.cs" />
     <Compile Include="IDictionary.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RBT1.cs" />
     <Compile Include="RBT1Set.cs" />
+    <Compile Include="RBT2.cs" />
     <Compile Include="SortedArray1.cs" />
     <Compile Include="SortedArray1Set.cs" />
     <Compile Include="SortedArray2.cs" />
