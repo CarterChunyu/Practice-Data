@@ -108,7 +108,21 @@ namespace 練習數據
             return node;
 
         }
-
+        public bool Contains(E e)
+        {
+            return Contains(this.root, e);
+        }
+        private bool Contains(Node node,E e)
+        {
+            if (node == null)
+                return false;
+            if (e.CompareTo(node.e) < 0)
+                return Contains(node.left, e);
+            else if (e.CompareTo(node.e) > 0)
+                return Contains(node.right, e);
+            else
+                return true;
+        }
         public void Remove(E e)
         {
             this.root = Remove(this.root,e);

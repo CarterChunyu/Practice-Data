@@ -60,7 +60,7 @@ namespace 練習數據
             x.right = node;
             x.Color = node.Color;
             node.Color = Red;
-            return node;
+            return x;
         }
         private void FlipColor(Node node)
         {
@@ -71,7 +71,7 @@ namespace 練習數據
 
         public void Add(E e)
         {
-            
+            this.root = Add(this.root, e);
         }
         private Node Add(Node node,E e)
         {

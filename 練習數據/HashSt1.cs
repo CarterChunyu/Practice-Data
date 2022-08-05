@@ -22,6 +22,9 @@ namespace 練習數據
         {
 
         }
+        public int Count { get { return N;  } }
+        public  bool IsEmpty { get { return N == 0; } }
+
         private int Hash(Key key)
         {
            return (key.GetHashCode() & 0x7fffffff) % M;
